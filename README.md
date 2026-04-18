@@ -12,6 +12,11 @@ Turn plain HTML into a polished learner profile card and practice the HTML/CSS l
    change `.card` from a two-column layout to a one-column layout, and
    change `.stats` from three columns to one column.
 
+## What You Are Practicing
+- The `src` field tells the browser where to load an image from.
+- The `href` field tells the browser where a link should go when someone clicks it.
+- The `@media (max-width: 640px)` section is where this file changes the layout for smaller screens.
+
 ## Stretch Goals
 - Add a favorite projects section.
 - Add hover styles to the links.
