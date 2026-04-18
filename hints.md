@@ -1,1 +1,1 @@
-Start with text only. After that, change `href` for links, then `src` for the image, then finish the two mobile CSS rules.
+Start with the visible words on the page, then look for the part of each link that controls its destination, then find the field that controls the image source. After that, finish the two unfinished mobile rules near the bottom of the CSS file.

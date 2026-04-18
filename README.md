@@ -5,11 +5,10 @@ Turn plain HTML into a polished learner profile card and practice the HTML/CSS l
 
 ## Start Here
 1. Open `index.html` in your browser.
-2. In `index.html`, change the text in these places first:
-   `h1`, `.summary`, and the three values inside `.stats span`.
-3. In `index.html`, change the three link URLs by editing each `<a href="...">`.
-4. In `index.html`, change the profile image by replacing the `src="..."` value on the `<img class="avatar" ...>` tag.
-5. In `styles.css`, finish the two missing mobile rules inside `@media (max-width: 640px)`.
+2. In `index.html`, replace the placeholder content with your own information.
+3. Update the links so they point to real destinations.
+4. Swap in a different profile image.
+5. In `styles.css`, finish the small-screen layout so the card still reads well on a phone.
 
 No install step is required.
 
