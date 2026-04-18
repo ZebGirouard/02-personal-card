@@ -10,8 +10,6 @@ Turn plain HTML into a polished learner profile card and practice the HTML/CSS l
 4. Swap in a different profile image.
 5. In `styles.css`, finish the small-screen layout so the card still reads well on a phone.
 
-No install step is required.
-
 ## Stretch Goals
 - Add a favorite projects section.
 - Add hover styles to the links.
