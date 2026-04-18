@@ -115,6 +115,14 @@ h1 {
     justify-content: center;
   }
 
+  .avatar {
+    /* When the card becomes one column, how should the image sit in that space? */
+  }
+
+  .links {
+    /* If the text is centered, how should the links line up underneath it? */
+  }
+
   .stats {
     grid-template-columns: 1fr;
   }
