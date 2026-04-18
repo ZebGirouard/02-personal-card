@@ -103,10 +103,12 @@ h1 {
 
 @media (max-width: 640px) {
   .card {
-    /* Finish this mobile layout tweak. */
+    /* Above, `.card` uses `grid-template-columns: 140px 1fr`.
+       On small screens, change it to one column and center the text. */
   }
 
   .stats {
-    /* Make the stats stack better on small screens. */
+    /* Above, `.stats` uses three columns.
+       On small screens, change it to one column. */
   }
 }
