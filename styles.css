@@ -116,6 +116,6 @@ h1 {
   }
 
   .stats {
-    /* Make the stats stack better on small screens. */
+    grid-template-columns: 1fr;
   }
 }
