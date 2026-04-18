@@ -33,6 +33,11 @@ body {
   box-shadow: 0 18px 50px rgba(15, 23, 42, 0.12);
 }
 
+.content {
+  display: grid;
+  gap: 1rem;
+}
+
 .avatar {
   width: 140px;
   height: 140px;
@@ -49,7 +54,41 @@ body {
 }
 
 h1 {
-  margin: 0 0 0.75rem;
+  margin: 0;
+}
+
+.summary {
+  margin: 0;
+  color: var(--muted);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.stats li {
+  padding: 0.85rem;
+  border-radius: 16px;
+  background: #fff3df;
+}
+
+.stats strong,
+.stats span {
+  display: block;
+}
+
+.stats strong {
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.stats span {
+  color: var(--muted);
 }
 
 .links {
@@ -74,5 +113,9 @@ h1 {
 
   .links {
     justify-content: center;
+  }
+
+  .stats {
+    /* Make the stats stack better on small screens. */
   }
 }
