@@ -107,6 +107,14 @@ h1 {
        On small screens, change it to one column and center the text. */
   }
 
+  .avatar {
+    /* When the card becomes one column, how should the image sit in that space? */
+  }
+
+  .links {
+    /* If the text is centered, how should the links line up underneath it? */
+  }
+
   .stats {
     /* Above, `.stats` uses three columns.
        On small screens, change it to one column. */
