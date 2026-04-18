@@ -1,1 +1,1 @@
-Start with the visible words on the page, then look for the part of each link that controls its destination, then find the field that controls the image source. After that, finish the two unfinished mobile rules near the bottom of the CSS file.
+Start with the visible words on the page, then look for the part of each link that controls its destination, then find the field that controls the image source. For the mobile CSS, copy the layout ideas from the desktop rules above: `.card` should become one column, and `.stats` should also become one column.

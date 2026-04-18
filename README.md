@@ -8,7 +8,9 @@ Turn plain HTML into a polished learner profile card and practice the HTML/CSS l
 2. In `index.html`, replace the placeholder content with your own information.
 3. Update the links so they point to real destinations.
 4. Swap in a different profile image.
-5. In `styles.css`, finish the small-screen layout so the card still reads well on a phone.
+5. In `styles.css`, make two specific mobile changes:
+   change `.card` from a two-column layout to a one-column layout, and
+   change `.stats` from three columns to one column.
 
 ## Stretch Goals
 - Add a favorite projects section.
